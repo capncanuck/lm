@@ -1413,7 +1413,7 @@ class ListMovies():
            %(title)s</a><br> \
            <font color=%(color)s>%(genre)s<br>\
            note: %(rating)s, votes: %(votes)s<br>\
-           size: %(size)iMo</font><br>\
+           size: %(size)iMB</font><br>\
            <a href='%(trailer)s'><img src='%(cover)s' height=150></a><br>\
            <small>%(file)s</small></td>\n"
 
