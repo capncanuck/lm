@@ -1378,7 +1378,7 @@ class ListMovies():
         if self.disp_very_long:
             out_str  =u"%(header)s%(title)s (%(b)srating%(e)s: %(rating)s)\n%"
             out_str +="(b)syear%(e)s: %(year)s %(b)sgenre%(e)s: %(genre)s\n%"
-            out_str +="(b)sfile%(e)s: %(filename)s %(b)ssize%(e)s: %(size)sMb"
+            out_str +="(b)sfile%(e)s: %(filename)s %(b)ssize%(e)s: %(size)sMB"
             out_str +="\n%(b)sdirector%(e)s: %(director)s\n"
             out_str = out_str % values_dict
 
