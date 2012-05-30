@@ -1395,7 +1395,7 @@ class ListMovies():
             out_str += "\n" + self.BLUE + "summary"+self.END+": %s\n---\n" % \
                     h['m_summary']
         elif self.disp_long:
-            out_str = u"%(header)s%(title)s (%(year)s,%(rating)s,%(size)sMo) "
+            out_str = u"%(header)s%(title)s (%(year)s,%(rating)s,%(size)sMB) "
             out_str += "[%(b)s%(genre)s%(e)s] from %(director)s: "
             out_str += "%(filename)s\n"
             out_str = out_str % values_dict
